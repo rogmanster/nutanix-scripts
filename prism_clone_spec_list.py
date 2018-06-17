@@ -6,8 +6,8 @@
 #   ︳ ︳︳l⊃
 #  'ఋ''ఋ'   
 # 	  
-# Prism RestAPI Script to demonstrate getting VM list, cloning VM and Power-on
-# Execute script using scriptname <ip address of Prism> <username> <password>
+# Prism RestAPI Script to demonstrate getting VM list, bulk cloning VM(s) and bulk power-on
+# Execute script using scriptname <Prism IP Address> <username> <password>
 # Author: Roger Chao ~ 2017
 
 import sys
