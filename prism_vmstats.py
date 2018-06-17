@@ -1,8 +1,18 @@
-# v1 API to display CPU usage for a VM
+#!/usr/bin/env python3
+#  ◤------◥
+#  l ● ▄ ● l 
+#   l‿/ʊ\‿l
+#   l══o══l
+#   ︳ ︳︳l⊃
+#  'ఋ''ఋ'   
+# 	  
+# Prism RestAPI v1 API script to pull VM stats - example for CPU and Memory
+# Execute script using scriptname <Prism IP address> <username> <password>
+# Author: Roger Chao ~ 2017
 
 import sys
 import requests
-import prism_auth
+#import prism_auth
 
 class RestAPI(object):
 	def __init__(self, ip_address, username, password):
