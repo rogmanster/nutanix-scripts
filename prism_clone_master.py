@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
-#
 #  ◤------◥
 #  l ● ▄ ● l 
 #   l‿/ʊ\‿l
 #   l══o══l
 #   ︳ ︳︳l⊃
 #  'ఋ''ఋ'   
-# 	  		ROXY ~ 2017
-#
+# 	  
 # Prism RestAPI Script to demonstrate Get (vm_list), Post (cloning vm) and Delete
 # Execute script using scriptname <ip address of Prism> <username> <password>
 
