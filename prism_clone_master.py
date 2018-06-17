@@ -8,6 +8,7 @@
 # 	  
 # Prism RestAPI Script to demonstrate Get (vm_list), Post (cloning vm) and Delete
 # Execute script using scriptname <ip address of Prism> <username> <password>
+# Author: Roger Chao ~ 2017
 
 import requests
 import json
