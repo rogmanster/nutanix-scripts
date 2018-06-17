@@ -1,11 +1,4 @@
-#      ◤------◥
-#      l ● ▄ ● l 
-#  	l‿/ʊ\‿l
-#  	l══o══l
-#  	︳ ︳︳l⊃
-#      'ఋ''ఋ'   
-# 	  		ROXY ~ 2017
-#
+#    
 # Prism RestAPI Script to add and remove VMs from Protection Domains for DR
 # Execute script using scriptname <ip address of Prism> <username> <password>
 
