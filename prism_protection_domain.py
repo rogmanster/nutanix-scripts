@@ -1,6 +1,14 @@
-#    
-# Prism RestAPI Script to add and remove VMs from Protection Domains for DR
-# Execute script using scriptname <ip address of Prism> <username> <password>
+#!/usr/bin/env python3
+#  ◤------◥
+#  l ● ▄ ● l 
+#   l‿/ʊ\‿l
+#   l══o══l
+#   ︳ ︳︳l⊃
+#  'ఋ''ఋ'   
+# 	  
+# Prism RestAPI script to demonstrate adding and remving VMs from Protection Domains for DR/Backup
+# Execute script using scriptname <Prism IP address> <username> <password>
+# Author: Roger Chao ~ 2017
 
 import requests
 import sys
