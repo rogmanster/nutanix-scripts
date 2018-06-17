@@ -6,7 +6,7 @@
 #   ︳ ︳︳l⊃
 #  'ఋ''ఋ'   
 # 	  
-# Prism RestAPI Script to demonstrate Get (vm_list), Post (cloning vm) and Delete
+# Prism RestAPI Script to demonstrate getting VM list, cloning VM and Power-on
 # Execute script using scriptname <ip address of Prism> <username> <password>
 # Author: Roger Chao ~ 2017
 
