@@ -1,3 +1,18 @@
+#!/usr/bin/env python3
+#
+#      ◤------◥
+#      l ● ▄ ● l 
+#  	l‿/ʊ\‿l
+#  	l══o══l
+#  	︳ ︳︳l⊃
+#      'ఋ''ఋ'   
+# 	  		ROXY ~ 2017
+#
+# Prism RestAPI Script to bulk clone VMs using a multi-vm spec list
+# Execute script using scriptname <ip address of Prism> <username> <password>
+
+
+
 import sys
 import requests
 import prism
