@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-#  ◤------◥
-#  l ● ▄ ● l 
-#   l‿/ʊ\‿l
-#   l══o══l
-#   ︳ ︳︳l⊃
-#  'ఋ''ఋ'   
-# 	  
-# Prism RestAPI v1 API script to pull VM stats - example for CPU and Memory
-# Execute script using scriptname <Prism IP address> <username> <password>
-# Author: Roger Chao ~ 2017
-
 import sys
 import requests
 #import prism_auth
