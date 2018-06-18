@@ -3,5 +3,4 @@
  
 ![alt text][logo]
 
- [logo]: http://images5.fanpop.com/image/photos/28600000/Huggy-starsky-and-hutch-1975-28698710-1084-1479.jpg
- 
+[logo]: http://leahlucci.com/starling/wp-content/uploads/2015/02/wall1_800.jpg
