@@ -12,6 +12,7 @@
 
 import requests
 import sys
+#import prism
 
 class RestAPI(object):
 	def __init__(self, ip_address, username, password):
