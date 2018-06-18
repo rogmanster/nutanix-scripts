@@ -4,4 +4,4 @@
  
 ![alt text][logo]
 
-[logo]: http://leahlucci.com/starling/wp-content/uploads/2015/02/wall1_800.jpg
+[logo]: http://pendolante.files.wordpress.com/2012/09/antonio-fargas.jpg
