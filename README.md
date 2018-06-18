@@ -1,4 +1,4 @@
-# Welcome to Huggy Bear
+# "To err is human, to forgive divine."
 
  
 ![alt text][logo]
