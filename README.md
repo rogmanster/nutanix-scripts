@@ -1,4 +1,4 @@
-# "To err is human, to forgive divine." - Huggy Bear
+# "To err is human, to forgive divine." Huggy Bear
 
 [Nutanix API Reference Site](http://developer.nutanix.com/)
  
