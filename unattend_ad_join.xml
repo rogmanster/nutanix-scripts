@@ -143,7 +143,7 @@
             </Credentials>
             <DebugJoin>true</DebugJoin>
             <JoinDomain>roger.local</JoinDomain>
-            <MachineObjectOU>CN=ssp.user1,CN=Users,DC=roger,DC=local</MachineObjectOU>
+            <MachineObjectOU>CN=ssp.user1,OU=demo-pool,DC=roger,DC=local</MachineObjectOU>
          </Identification>
       </component>
    </settings>
