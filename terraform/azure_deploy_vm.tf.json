@@ -3,12 +3,12 @@ variable "resourcename" {
 }
 
 # Configure the Microsoft Azure Provider
-provider "azurerm" {
-    subscription_id = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-    client_id       = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-    client_secret   = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-    tenant_id       = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-}
+#provider "azurerm" {
+#    subscription_id = "dcd5918b-d5f1-48b1-9b5d-59da76d128ea"
+#    client_id       = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+#    client_secret   = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+#    tenant_id       = "92d9273b-6c6f-4e9c-9f6e-968edbb10a6d"
+#}
 
 # Create a resource group if it doesn’t exist
 resource "azurerm_resource_group" "myterraformgroup" {
