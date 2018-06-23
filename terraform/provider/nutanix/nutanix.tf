@@ -6,17 +6,20 @@ provider "nutanix" {
   port     = 9440
 }
 
-resource "nutanix_virtual_machine" "my-machine" {
-  metadata {
-    kind = "vm"
-    name = "metadata-name-test-dou-%d"
+data "nutanix_clusters" "clusters" {
+  metadata = {
+    length = 2
   }
+}
 
-  name = "name-test-dou-%d"
+resource "nutanix_virtual_machine" "vm1" {
+  name = "test-dou-update-15"
+
+  description = "test update 4"
 
   cluster_reference = {
     kind = "cluster"
-    uuid = "00056eda-31fe-0b6a-336d-001fc69be30e"
+    uuid = "${data.nutanix_clusters.clusters.entities.0.metadata.uuid}"
   }
 
   num_vcpus_per_socket = 1
@@ -24,12 +27,11 @@ resource "nutanix_virtual_machine" "my-machine" {
   memory_size_mib      = 512
   power_state          = "ON"
 
-  nic_list = [{
-    nic_type = "NORMAL_NIC"
-
-    subnet_reference = {
-      kind = "subnet"
-      uuid = "d21dedcb-0b7b-4c4d-a3e6-30efe9378817"
+  nic_list = [
+   {
+      subnet_reference = {
+        kind = "subnet"
+        uuid = "d21dedcb-0b7b-4c4d-a3e6-30efe9378817"
     }
 
     network_function_nic_type = "INGRESS"
@@ -48,8 +50,8 @@ resource "nutanix_virtual_machine" "my-machine" {
       }]
 
       disk_size_mib = 1
-    },
-  ]
+    }
+  }
 
 output "ip" {
   value = "${nutanix_virtual_machine.my-machine.ip_address}"
