@@ -28,11 +28,12 @@ resource "nutanix_virtual_machine" "my-machine" {
     {
       data_source_reference = {
       kind = "image"
-      uuid = "4e521e6c-402f-4b1e-8bd2-a30e764c759f"
+      # CentOS7-Base Image from from Image Library - VM UUID 
+      uuid = "e0ba6112-0f7d-4d03-bc69-258dedea5a7e"
       }
     }
   ]
 
-  guest_customization_cloud_init_user_data = "${base64encode("${file("~/Documents/GitHub/huggybear/cloud_config.conf")}")}"
+  guest_customization_cloud_init_user_data = "${base64encode("${file("~/Documents/GitHub/huggybear/cloud_config.yml")}")}"
 
 }
