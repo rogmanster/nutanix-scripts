@@ -1,0 +1,23 @@
+#cloud-config
+
+hostname: roger-luvs-me
+fqdn: roger-luvs-me.roger.local
+
+write_files:
+
+  - path: /etc/sysconfig/network-scripts/ifcfg-eth0
+    content: |
+        DEVICE=eth0
+        BOOTPROTO="none"
+        NETMASK="255.255.255.0"
+        IPADDR="10.0.0.88"
+        GATEWAY="10.0.0.1"
+        ONBOOT="yes"
+
+  - path: /etc/resolv.conf
+    content: |
+        search roger.local
+        nameserver 10.0.0.251
+        
+runcmd:
+  - service network restart
