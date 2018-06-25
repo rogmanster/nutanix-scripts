@@ -3,7 +3,7 @@ provider "nutanix" {
   username = "nutanix"
   password = "Nutanix/4u!"     
   endpoint = "10.0.0.102" /* This is the cluster IP you wish to use not prismcentral */
-  insecure = true
+  insecure = l
 }
 
 resource "nutanix_virtual_machine" "my-machine" {

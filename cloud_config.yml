@@ -6,10 +6,7 @@ fqdn: roger-luvs-me.roger.local
 users:
   - name: centos
     ssh-authorized-keys:
-      - ssh-rsa ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDSct/XRi9HcprTKrvC7YfGiGaJfpLI3W
-        59AJNG3nUBAGKbPg5JRQv6Giygdic6/cPWkK6Z98+CUlKvOB0b/d57vNpCbxnyGUvA5WNP
-        aBhdHqY2VX12jzqzlsCHiPRa0xqWORSWtqfg15xRUukGYJ5XIfVEQtDKLt/mrHkdWB2mQQ
-        == rogerchao@RChaoDUR-MBP.hsd1.ca.comcast.net
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDSct/XRi9HcprTKrvC7YfGiGaJfpLI3W59AJNG3nUBAGKbPg5JRQv6Giygdic6/cPWkK6Z98+CUlKvOB0b/d57vNpCbxnyGUvA5WNPaBhdHqY2VX12jzqzlsCHiPRa0xqWORSWtqfg15xRUukGYJ5XIfVEQtDKLt/mrHkdWB2mQQ== rogerchao@RChaoDUR-MBP.hsd1.ca.comcast.net
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
 
 write_files:
