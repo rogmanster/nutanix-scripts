@@ -2,7 +2,7 @@
 provider "nutanix" {
   username = "nutanix"
   password = "Nutanix/4u!"     
-  endpoint = "10.0.0.101" /* This is the cluster IP you wish to use not prismcentral */
+  endpoint = "10.0.0.102" /* This is the cluster IP you wish to use not prismcentral */
   insecure = true
 }
 

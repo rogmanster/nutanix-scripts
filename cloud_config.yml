@@ -6,7 +6,10 @@ fqdn: roger-luvs-me.roger.local
 users:
   - name: centos
     ssh-authorized-keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCv/Ia4YE/NANg3o24QbrFpfp0OAYnlex4ZNq/Du4dhgWZ08lLkOq1GlqWyr2MY/ENrZiiyafixceu7Ox8bDPYM3FONGRc4nchGpkWv3ux/4vWDXq7MiPP0nkhSepK0S4YkFRxd6Gwb6U8vreJK0thiWAjv03VBBE+w9/v3BanzNQe2f8rdiQTKzcw4Xt1ltCD5RJdX//1On4KgrVY5sENWCBdroFIPB1maUjpRB5+C4OHy/a+H9Cg79jv2j26YRoPNglh5mJbda6ivVe/RziIAcuNWc/UnWtzt5ffwDQgCiKGYwcjd4T1TLSqEmzIKNetycAXHP0vFKsXwgAOjXY2n rogerchao@RChaoDUR-MBP.local
+      - ssh-rsa ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDSct/XRi9HcprTKrvC7YfGiGaJfpLI3W
+        59AJNG3nUBAGKbPg5JRQv6Giygdic6/cPWkK6Z98+CUlKvOB0b/d57vNpCbxnyGUvA5WNP
+        aBhdHqY2VX12jzqzlsCHiPRa0xqWORSWtqfg15xRUukGYJ5XIfVEQtDKLt/mrHkdWB2mQQ
+        == rogerchao@RChaoDUR-MBP.hsd1.ca.comcast.net
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
 
 write_files:
