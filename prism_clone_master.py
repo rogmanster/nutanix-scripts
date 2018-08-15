@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-#  ◤------◥
-#  l ● ▄ ● l 
-#   l‿/ʊ\‿l
-#   l══o══l
-#   ︳ ︳︳l⊃
-#  'ఋ''ఋ'   
-# 	  
+#	  
 # Prism RestAPI script to demonstrate get VM, clone VM, power-on and delete operations.
 # Execute script using scriptname <Prism IP address> <username> <password>
 # Author: Roger Chao ~ 2017
