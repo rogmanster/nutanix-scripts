@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-#  ◤------◥
-#  l ● ▄ ● l 
-#   l‿/ʊ\‿l
-#   l══o══l
-#   ︳ ︳︳l⊃
-#  'ఋ''ఋ'   
+#  
 # 	  
 # Prism RestAPI Script to demonstrate getting VM list, bulk cloning VM(s) and bulk power-on
 # Execute script using scriptname <Prism IP Address> <username> <password>
