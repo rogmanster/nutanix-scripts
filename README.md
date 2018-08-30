@@ -8,6 +8,6 @@
 
 > These scripts are common use cases around bulk VM provisioning and leveraged by some of my more advanced customers. These scripts are written by myself and used as a representative examples and can be extended to a variety of use cases.
 
-[Nutanix API Reference Site](http://developer.nutanix.com/)
+* [Nutanix API Reference Site](http://developer.nutanix.com/)
  
 
