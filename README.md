@@ -8,6 +8,11 @@
 
 > These scripts are common use cases around bulk VM provisioning. 
 
+Some notes to leverage scripts:
+* Utilizing the Requests module for the Rest Calls
+* Scripts written in Python 3.6.5
+
+Other sample scripts and documenation:
 * [Nutanix API Reference Site](http://developer.nutanix.com/)
  
 
